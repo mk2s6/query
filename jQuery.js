@@ -12,7 +12,7 @@ $(function () {
 	$.ajax({
 		method: 'GET',
 		dataType: 'json',
-		url: 'orders1.json',
+		url: '/query/orders1.json',
 		success : function(data) {
 			console.log("success", data);
 			$.each(data, function(i,order) {
@@ -31,7 +31,7 @@ $(function () {
 		};
 		$.ajax({
 			method: 'post',
-			url: 'orders1.json',
+			url: '/query/orders1.json',
 			contentType: 'application/json; charset=utf-8',
 			data : order,
 			success : function(newOrder) {
