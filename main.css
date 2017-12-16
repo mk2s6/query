@@ -1,0 +1,38 @@
+body {
+	text-align: center;
+	margin: 0px;
+	padding: 0px;
+	font-family: cursive;
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-ordinal-group:1;
+	width: 100%;
+}
+
+h1 {
+	margin: 10px;
+	font-family: cursive;
+	padding: 10px;
+	display: content-box;
+	width: auto;
+	height: auto;
+	border:1px solid blue;
+}
+
+h2 {
+	border:1px solid blue;
+	margin: 10px;
+	padding: 10px;
+	display: content-box;
+}
+
+div {
+	border:1px solid blue;
+	margin: 10px;
+	padding: 10px;
+	display: content-box;
+}
+
+ul {
+	list-style: none;
+}
