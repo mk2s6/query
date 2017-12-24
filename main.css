@@ -13,26 +13,64 @@ h1 {
 	margin: 10px;
 	font-family: cursive;
 	padding: 10px;
-	display: content-box;
-	width: auto;
-	height: auto;
-	border:1px solid blue;
+	border:1px solid rgba(172,222,255,0.5);
+	background-color: #acdeff;
+	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
+	margin-bottom: 0px;
+	color: tomato;
+	border-top-right-radius : 5px;
+	border-top-left-radius:  5px;
 }
 
 h2 {
-	border:1px solid blue;
 	margin: 10px;
 	padding: 10px;
 	display: content-box;
-}
-
-div {
-	border:1px solid blue;
-	margin: 10px;
-	padding: 10px;
-	display: content-box;
+	background-color: #55efae;
+	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
+	margin-top: 0px;
+	border-bottom-right-radius : 5px;
+	border-bottom-left-radius:  5px
 }
 
 ul {
 	list-style: none;
+}
+ul {
+	margin-top: 50px;
+	background-color: #f0f0f0;
+	margin-right: 50px;
+	width: auto;
+	border-radius: 5px;
+	display: -webkit-box;
+	-webkit-box-flex:1;
+	display: -webkit-box;
+	-webkit-box-orient:vertical;
+}
+
+li {
+	margin: 5px;
+	padding: 5px;
+}
+
+li:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+form {
+	margin-top: 50px;
+	padding: 10px;
+	background-color: #f0f0f0;
+	width: 300px;
+}
+
+input[type=button]:hover {
+	cursor: pointer;
+}
+aside{
+	display: -webkit-box;
+}
+#siva {
+	display: -webkit-box;
+	-webkit-box-orient: horizontal;
 }
