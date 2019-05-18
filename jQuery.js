@@ -47,12 +47,9 @@ $(function () {
 			data : JSON.stringify(order),
 			success : function(response) {
 				event.preventDefault();
-			//	console.log( $name.val());
 				console.log(response);
 				addOrder(order);
 				clear(orders);
-				// //$add.click();
-				//console.log($name.val());
 			},
 			error: function(jqXHR) {
 				console.log(order);

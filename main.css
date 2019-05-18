@@ -25,6 +25,7 @@ h1 {
 h2 {
 	margin: 10px;
 	padding: 10px;
+	color: tomato;
 	display: content-box;
 	background-color: #55efae;
 	box-shadow: 5px 5px 5px rgba(150,150,150,0.5);
@@ -38,14 +39,12 @@ ul {
 }
 ul {
 	margin-top: 50px;
+	padding: 10px;
 	background-color: #f0f0f0;
 	margin-right: 50px;
+	margin-left: 50px;
 	width: auto;
-	border-radius: 5px;
-	display: -webkit-box;
-	-webkit-box-flex:1;
-	display: -webkit-box;
-	-webkit-box-orient:vertical;
+	border-radius: 10px;
 }
 
 li {
@@ -62,6 +61,14 @@ form {
 	padding: 10px;
 	background-color: #f0f0f0;
 	width: 300px;
+	border-radius: 10px;
+	display: inline-block;
+}
+
+form:hover {
+	box-shadow: 5px 5px 10px #ccc;
+	box-sizing: unset;
+	body.color: #;
 }
 
 input[type=button]:hover {

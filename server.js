@@ -1,6 +1,5 @@
 var express = require('express');
 var parser = require('body-parser');
-var mysql = require('mysql');
 var app = express();
 var orders = require('./orders1.json');
 
