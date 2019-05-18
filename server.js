@@ -6,7 +6,7 @@ var orders = require('./orders1.json');
 app.use(express.static(__dirname));
 app.use(parser.json());
 
-const port = process.event.PORT || 8080;
+const port = process.env.PORT || 8080;
 app.listen(port, function() {
 	// body...
 	console.log("server listening ");
